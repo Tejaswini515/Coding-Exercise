@@ -14,10 +14,10 @@
     margin: 20% 20%;
   }
   
-  .display-block {
+  .showModal {
     display: block;
   }
   
-  .display-none {
+  .hideModal {
     display: none;
   }
