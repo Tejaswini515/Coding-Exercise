@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  height: 40px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1 em;
+}
+
+.ButtonClass{
+  display: inline-block;
+  margin: 20px;
+  padding: 10px;
+  background-color: teal;
+}
+
+select,button{
+  display: inline-block;
+  margin: 20px;
+  padding: 10px;
+}
+
+ul{
+  list-style: none;
+}
+
+.Main-content{
+  display: block;
+  margin: 10%;
+}
