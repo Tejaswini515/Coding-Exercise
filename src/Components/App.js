@@ -5,6 +5,7 @@ import Task1 from './Task1/Task1';
 import Task2 from './Task2/Task2';
 import Task3 from './Task3/Task3';
 import './App.css';
+import Task4 from './Task4/Task4';
 
 class App extends Component {
 
@@ -25,12 +26,16 @@ class App extends Component {
             <Link to='/task3'>
               <Tab label="Task 3" />
             </Link>
+            <Link to='/task4'>
+              <Tab label="Task 4" />
+            </Link>
           </Tabs>
         </AppBar>
         <div className="Main-content">
           <Route path='/task1' component={Task1}/>
           <Route path='/task2' component={Task2}/>
           <Route path='/task3' component={Task3}/>
+          <Route path='/task4' component={Task4}/>
         </div>
       </div>
     );
